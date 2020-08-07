@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "RN Guide",
-    "slug": "rn-complete-guide",
+    "name": "react-native-store-app",
+    "slug": "react-native-store-app",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
