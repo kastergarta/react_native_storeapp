@@ -6,15 +6,16 @@ import {
   StyleSheet,
   Button,
   ActivityIndicator,
-  Alert
+  Alert,
+  ImageBackground
 } from 'react-native';
-import { LinearGradient } from 'expo-linear-gradient';
 import { useDispatch } from 'react-redux';
 
 import Input from '../../components/UI/Input';
 import Card from '../../components/UI/Card';
 import Colors from '../../constants/Colors';
 import * as authActions from '../../store/actions/auth';
+import authBackgroundImage from '../../assets/authBackgroundImage.jpg';
 
 const FORM_INPUT_UPDATE = 'FORM_INPUT_UPDATE';
 
@@ -107,7 +108,7 @@ const AuthScreen = props => {
       keyboardVerticalOffset={50}
       style={styles.screen}
     >
-      <LinearGradient colors={['#ffedff', '#ffe3ff']} style={styles.gradient}>
+      <ImageBackground source={authBackgroundImage} style={styles.gradient}>
         <Card style={styles.authContainer}>
           <ScrollView>
             <Input
@@ -155,13 +156,13 @@ const AuthScreen = props => {
             </View>
           </ScrollView>
         </Card>
-      </LinearGradient>
+      </ImageBackground>
     </KeyboardAvoidingView>
   );
 };
 
 export const screenOptions = {
-  headerTitle: 'Authenticate'
+  headerShown: false
 };
 
 const styles = StyleSheet.create({
