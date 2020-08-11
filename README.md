@@ -1,4 +1,4 @@
-## Store App `Updated 08.10.2020` [VIDEO](https://youtu.be/9RpBgMKWtDw)  [LIVE DEMO - Heroku](https://hawkathonproject.herokuapp.com/)
+## Store App `Updated 08.10.2020` 
 
 This is a React Native App that have all the functionality to create new products, buy products, see a list of previous orders and update products info. Everything ready to schedule real-life e-shop. 
 
@@ -13,24 +13,13 @@ Expo + React Native + Redux + React Navigation + Firebase Auth + Firebase Realti
 
 ### `Run this App`
 
-![Hawkathon Demo](./public/Oct_24_2019_16_07_05_min.gif)
+The best way to test this app is by loading it in the Expo client App. You can downolad it at the [App Store](https://apps.apple.com/us/app/expo-client/id982107779) and [Google Play](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_US). 
 
-### ` What you can do on the Hawkathon page?`
+### `App overview`
 
-1. Register as a new user.
-
-![Hawkathon Register](./public/Hawkathon_Register.png)
-![Hawkathon Email](./public/Hawkathon_Email.png)
-
-2. Existing users log-in with a username and password.
-3. Every user can see and update his/her profile (name, email, location, password, tech skills, soft skills).
-
-![Hawkathon Donate 1](./public/Hawkathon_Profile_1.png)
-![Hawkathon Donate 1](./public/Hawkathon_Profile_2.png)
-![Hawkathon Donate 1](./public/Hawkathon_Profile_3.png)
-
-4. Every visitor of the page can donate to the Hawkathon.
-
-![Hawkathon Donate 1](./public/Hawkathon_Donate_1.png)
+1. Login and Signup screen
+2. 'All products' screen -> 'Details' screen
+3. 'Cart' screen -> 'Orders' screen
+4. 'Your products' screen -> 'Create product' screen
 
 ### `Thanks`
