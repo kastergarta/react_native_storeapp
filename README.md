@@ -17,6 +17,8 @@ The best way to test this app is by loading it in the Expo client App. You can d
 
 ### `App overview`
 
+![RN_StoreApp2 ](https://user-images.githubusercontent.com/49665711/89965654-4d759280-dc1b-11ea-8f9d-45aaa9a3a29f.jpg)
+
 1. Login and Signup screen
 2. 'All products' screen -> 'Details' screen
 3. 'Cart' screen -> 'Orders' screen
