@@ -13,7 +13,7 @@ Expo + React Native + Redux + React Navigation + Firebase Auth + Firebase Realti
 
 ### `Run this App`
 
-The best way to test this app is by loading it in the Expo client App. You can downolad it at the [App Store](https://apps.apple.com/us/app/expo-client/id982107779) and [Google Play](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_US). 
+The best way to test this app is by loading it in the Expo client App. You can downolad it at the [App Store](https://apps.apple.com/us/app/expo-client/id982107779) and [Google Play](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_US).
 
 ### `App overview`
 
