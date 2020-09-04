@@ -1,4 +1,4 @@
-## Store App `Updated 08.12.2020` [VIDEO](https://www.youtube.com/watch?v=3fBEaHvKxv8&feature=youtu.be)
+## Store App `Updated 09.02.2020` [VIDEO](https://www.youtube.com/watch?v=3fBEaHvKxv8&feature=youtu.be)
 
 This is a simple e-commerce app built with a React Native. It has all the functionality to create new products, buy products, see a list of previous orders, and update product info. Everything ready to schedule real-life e-shop.
 

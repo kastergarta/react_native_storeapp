@@ -46,6 +46,10 @@ export const fetchProducts = () => {
   };
 };
 
+
+
+
+
 export const deleteProduct = productId => {
   return async (dispatch, getState) => {
     const token = getState().auth.token;
