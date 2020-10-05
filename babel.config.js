@@ -4,5 +4,6 @@ module.exports = function(api) {
     presets: [
       'babel-preset-expo'
     ],
+    plugins: ['inline-dotenv'],
   };
 };
