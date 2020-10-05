@@ -1,10 +1,12 @@
 import { AsyncStorage } from 'react-native';
 
-// export const SIGNUP = 'SIGNUP';
-// export const LOGIN = 'LOGIN';
 export const AUTHENTICATE = 'AUTHENTICATE';
 export const LOGOUT = 'LOGOUT';
 export const SET_DID_TRY_AL = 'SET_DID_TRY_AL';
+
+import Config from "react-native-config";
+
+console.log(Config.API_KEY, '<---');
 
 let timer;
 
@@ -13,6 +15,7 @@ export const setDidTryAL = () => {
 };
 
 export const authenticate = (userId, token, expiryTime) => {
+  //console.log(config);
   return dispatch => {
     dispatch(setLogoutTimer(expiryTime));
     dispatch({ type: AUTHENTICATE, userId: userId, token: token });
@@ -22,7 +25,7 @@ export const authenticate = (userId, token, expiryTime) => {
 export const signup = (email, password) => {
   return async dispatch => {
     const response = await fetch(
-      'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyArbUgQS-KwCKXnbLWnjoER3UDPyPW5uMA',
+      'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=${Config.API_KEY}',
       {
         method: 'POST',
         headers: {
@@ -65,8 +68,7 @@ export const signup = (email, password) => {
 export const login = (email, password) => {
   return async dispatch => {
     const response = await fetch(
-      'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyArbUgQS-KwCKXnbLWnjoER3UDPyPW5uMA',
-      {
+      'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${Config.API_KEY}',      {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

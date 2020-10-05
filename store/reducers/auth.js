@@ -24,11 +24,6 @@ export default (state = initialState, action) => {
         ...initialState,
         didTryAutoLogin: true
       };
-    // case SIGNUP:
-    //   return {
-    //     token: action.token,
-    //     userId: action.userId
-    //   };
     default:
       return state;
   }
